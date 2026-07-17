@@ -5,6 +5,7 @@ import Football from './components/football.jsx'
 import MyForm from './components/myForm.jsx'
 import NavBar from './components/navBar.jsx'
 import ContextExample from './components/Context.jsx'
+import ReducerExample from './components/Reducer.jsx'
 const App = () => {
   return (
     <div className="bg-black-500">
@@ -13,6 +14,7 @@ const App = () => {
     <Football />
     <MyForm />
     <ContextExample />
+    <ReducerExample />
     </div>
   );
 }
