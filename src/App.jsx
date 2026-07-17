@@ -4,6 +4,7 @@ import ColorText from './components/colorText.jsx'
 import Football from './components/football.jsx'
 import MyForm from './components/myForm.jsx'
 import NavBar from './components/navBar.jsx'
+import Timer from './components/Timer.jsx'
 import ContextExample from './components/Context.jsx'
 import ReducerExample from './components/Reducer.jsx'
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <ColorText text="this text is colorful " color="blue"/>
     <Football />
     <MyForm />
+    <Timer/>
     <ContextExample />
     <ReducerExample />
     </div>
